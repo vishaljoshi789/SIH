@@ -32,6 +32,8 @@ class SchoolData(models.Model):
     contact = models.CharField(max_length=255, blank=True, null=True)
     high_school_percentage = models.CharField(max_length=255, blank=True, null=True)
     intermidiate_percentage = models.CharField(max_length=255, blank=True, null=True)
+    def __str__(self):
+        return self.student
 
 
     
