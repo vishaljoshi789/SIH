@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 
 gender_choice = (('Male', 'Male'), ('Female', 'Female'), ('Other', 'Other'))
+caste_choice = (('General', 'General'), ('SC/ST', 'SC/ST'), ('OBC', 'OBC'))
 
 class School(models.Model):
     name = models.CharField(max_length=255, null=True, blank=True)
@@ -14,10 +15,12 @@ class College(models.Model):
 
 
 class SchoolData(models.Model):
-    school = models.ForeignKey(School, on_delete=models.CASCADE, null=True, blank=True)
+    school = models.CharField(max_length=255, null=True, blank=True)
     student = models.CharField(max_length=255, blank=True, null=True)
+    grade = models.IntegerField(null=True, blank=True)
     age = models.IntegerField(null=True, blank=True)
     gender = models.CharField(max_length=255, blank=True, null=True, choices=gender_choice)
+    caste = models.CharField(max_length=255, blank=True, null=True, choices=caste_choice)
     aadhar = models.CharField(max_length=255, blank=True, null=True)
     address = models.CharField(max_length=255, blank=True, null=True)
     residential_address = models.CharField(max_length=255, blank=True, null=True)
@@ -29,6 +32,7 @@ class SchoolData(models.Model):
     contact = models.CharField(max_length=255, blank=True, null=True)
     high_school_percentage = models.CharField(max_length=255, blank=True, null=True)
     intermidiate_percentage = models.CharField(max_length=255, blank=True, null=True)
+
 
     
 
