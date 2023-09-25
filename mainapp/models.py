@@ -6,6 +6,7 @@ gender_choice = (('Male', 'Male'), ('Female', 'Female'), ('Other', 'Other'))
 caste_choice = (('General', 'General'), ('SC/ST', 'SC/ST'), ('OBC', 'OBC'))
 
 city_choice = (('Haldwani', 'Haldwani'), ('Bhimtal', 'Bhimtal'), ('Ramnagar', 'Ramnagar'), ('Nanital' ,'Nanital'), ('Mukteshwar', 'Mukteshwar'), ('Bhowali', 'Bhowali'))
+school_choice = (('Inspiration', 'Inspiration'), ('Doon Public', 'Doon Public'), ('KVM', 'KVM'), ('Cynthiya', 'Cynthiya'), ('ST Theresa', 'ST Theresa'), ('Nirmala', 'Nirmala'), ('ST Lawrence', 'ST Lawrence'))
 
 class School(models.Model):
     name = models.CharField(max_length=255, null=True, blank=True)
@@ -17,7 +18,7 @@ class College(models.Model):
 
 
 class SchoolData(models.Model):
-    school = models.CharField(max_length=255, null=True, blank=True)
+    school = models.CharField(max_length=255, null=True, blank=True, choices=school_choice)
     student = models.CharField(max_length=255, blank=True, null=True)
     grade = models.IntegerField(null=True, blank=True)
     age = models.IntegerField(null=True, blank=True)

@@ -91,3 +91,34 @@ def region(request):
 
     return render(request, 'mainapp/region.html', context=context)
 
+def school(request):
+    data = SchoolData.objects.all()
+    data_count = data.count()
+    ins_count = data.filter(school="Inspiration").count()
+    doon_count = data.filter(school="Doon Public").count()
+    kvm_count = data.filter(school="KVM").count()
+    cyn_count = data.filter(school="Cynthiya").count()
+    the_count = data.filter(school="ST Theresa").count()
+    nir_count = data.filter(school="Nirmala").count()
+    law_count = data.filter(school="ST Lawrence").count()
+    haldwani_percentage = ins_count/data_count*100
+    nanital_percentage = doon_count/data_count*100
+    bhimtal_percentage = kvm_count/data_count*100
+    bhowali_percentage = cyn_count/data_count*100
+    ramnagar_percentage = the_count/data_count*100
+    mukteshwar_percentage = nir_count/data_count*100
+    law_percentage = law_count/data_count*100
+    
+
+    context = {}
+    context['haldwani_count'] = haldwani_percentage
+    context['nanital_count'] = nanital_percentage
+    context['bhimtal_count'] = bhimtal_percentage
+    context['bhowali_count'] = bhowali_percentage
+    context['ramnagar_count'] = ramnagar_percentage
+    context['mukteshwar_count'] = mukteshwar_percentage
+    context['law_count'] = law_percentage
+
+
+    return render(request, 'mainapp/school.html', context=context)
+

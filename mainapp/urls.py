@@ -7,5 +7,6 @@ urlpatterns = [
     path('caste', views.caste, name="caste"),
     path('age', views.age, name="age"),
     path('region', views.region, name="region"),
+    path('school', views.school, name="school"),
     
 ]
