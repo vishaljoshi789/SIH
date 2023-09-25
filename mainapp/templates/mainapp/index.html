@@ -77,12 +77,12 @@
 
 <script>const ctx = document.getElementById('myChart');
 
-    const labels = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'];
+    const labels = ['Male', 'Female', 'Others'];
     const data = {
       labels: labels,
       datasets: [{
-        label: 'Number of Drop Out Students in <City>',
-        data: [65, 59, 80, 81, 56, 55, 40,30,55,63,54,40,32],
+        label: 'Number of Drop Out according to gender',
+        data: [{{male_count}}, {{female_count}}, {{other_count}}],
         fill: false,
         borderColor: 'rgb(75, 192, 192)',
         tension: 0.1
@@ -90,7 +90,7 @@
     };
     
     const config = {
-        type: 'bar',
+        type: 'pie',
         data: data,
         options: {
             indexAxis: 'x',
