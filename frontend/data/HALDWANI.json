@@ -1,12 +1,6 @@
 [
       {
-        "student": "Amit Sharma",
-        "grade": 9,
-        "gender": "Male",
-        "caste": "General",
-        "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
-      },
-      {
+        "id": 1,
         "student": "Priya Patel",
         "grade": 10,
         "gender": "Female",
@@ -14,6 +8,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 2,
         "student": "Rahul Gupta",
         "grade": 11,
         "gender": "Male",
@@ -21,6 +16,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 3,
         "student": "Kavita Singh",
         "grade": 12,
         "gender": "Female",
@@ -28,6 +24,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 4,
         "student": "Rajesh Kumar",
         "grade": 10,
         "gender": "Male",
@@ -35,6 +32,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 5,
         "student": "Neha Verma",
         "grade": 11,
         "gender": "Female",
@@ -42,6 +40,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 6,
         "student": "Sanjay Mehta",
         "grade": 12,
         "gender": "Male",
@@ -49,6 +48,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 7,
         "student": "Sneha Choudhury",
         "grade": 9,
         "gender": "Female",
@@ -56,6 +56,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 8,
         "student": "Aryan Kumar",
         "grade": 10,
         "gender": "Male",
@@ -63,6 +64,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 9,
         "student": "Anita Das",
         "grade": 11,
         "gender": "Female",
@@ -70,6 +72,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 10,
         "student": "Vikram Singh",
         "grade": 12,
         "gender": "Male",
@@ -77,6 +80,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 11,
         "student": "Sachin Mishra",
         "grade": 9,
         "gender": "Male",
@@ -84,6 +88,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 12,
         "student": "Pooja Gupta",
         "grade": 10,
         "gender": "Female",
@@ -91,6 +96,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 13,
         "student": "Rajiv Verma",
         "grade": 11,
         "gender": "Male",
@@ -98,6 +104,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 14,
         "student": "Shweta Yadav",
         "grade": 12,
         "gender": "Female",
@@ -105,6 +112,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 15,
         "student": "Kiran Kumari",
         "grade": 10,
         "gender": "Female",
@@ -112,6 +120,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 16,
         "student": "Sunil Singh",
         "grade": 11,
         "gender": "Male",
@@ -119,6 +128,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 17,
         "student": "Rita Mehta",
         "grade": 12,
         "gender": "Female",
@@ -126,6 +136,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 18,
         "student": "Arjun Choudhury",
         "grade": 9,
         "gender": "Male",
@@ -133,6 +144,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 19,
         "student": "Nisha Sharma",
         "grade": 10,
         "gender": "Female",
@@ -140,6 +152,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 20,
         "student": "Rajeev Patel",
         "grade": 11,
         "gender": "Male",
@@ -147,6 +160,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 21,
         "student": "Lata Gupta",
         "grade": 12,
         "gender": "Female",
@@ -154,6 +168,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 22,
         "student": "Kamal Kumar",
         "grade": 10,
         "gender": "Male",
@@ -161,6 +176,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 23,
         "student": "Manju Verma",
         "grade": 11,
         "gender": "Female",
@@ -168,6 +184,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 24,
         "student": "Rajat Mehta",
         "grade": 12,
         "gender": "Male",
@@ -175,6 +192,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 26,
         "student": "Poonam Singh",
         "grade": 9,
         "gender": "Female",
@@ -182,6 +200,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 27,
         "student": "Ravi Gupta",
         "grade": 10,
         "gender": "Male",
@@ -189,6 +208,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 28,
         "student": "Sarika Kumari",
         "grade": 11,
         "gender": "Female",
@@ -196,6 +216,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 29,
         "student": "Ajay Yadav",
         "grade": 12,
         "gender": "Male",
@@ -203,6 +224,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 30,
         "student": "Neeta Sharma",
         "grade": 9,
         "gender": "Female",
@@ -210,6 +232,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 31,
         "student": "Vijay Kumar",
         "grade": 10,
         "gender": "Male",
@@ -217,6 +240,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 32,
         "student": "Meena Das",
         "grade": 11,
         "gender": "Female",
@@ -224,6 +248,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 33,
         "student": "Suresh Singh",
         "grade": 12,
         "gender": "Male",
@@ -231,6 +256,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 34,
         "student": "Shikha Mishra",
         "grade": 10,
         "gender": "Female",
@@ -238,6 +264,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 35,
         "student": "Anil Patel",
         "grade": 11,
         "gender": "Male",
@@ -245,6 +272,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 36,
         "student": "Nandini Gupta",
         "grade": 12,
         "gender": "Female",
@@ -252,6 +280,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 37,
         "student": "Rajesh Das",
         "grade": 9,
         "gender": "Male",
@@ -259,6 +288,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 38,
         "student": "Renuka Kumari",
         "grade": 10,
         "gender": "Female",
@@ -266,6 +296,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 39,
         "student": "Alok Yadav",
         "grade": 11,
         "gender": "Male",
@@ -273,6 +304,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 40,
         "student": "Seema Sharma",
         "grade": 12,
         "gender": "Others",
@@ -280,6 +312,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 41,
         "student": "Vikas Gupta",
         "grade": 9,
         "gender": "Male",
@@ -287,6 +320,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 42,
         "student": "Neha Patel",
         "grade": 10,
         "gender": "Others",
@@ -294,6 +328,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 43,
         "student": "Sudhir Verma",
         "grade": 11,
         "gender": "Male",
@@ -301,6 +336,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 44,
         "student": "Preeti Kumari",
         "grade": 12,
         "gender": "Others",
@@ -308,6 +344,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 45,
         "student": "Amit Sharma",
         "grade": 9,
         "gender": "Male",
@@ -315,6 +352,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 46,
         "student": "Priya Patel",
         "grade": 10,
         "gender": "Female",
@@ -322,6 +360,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 47,
         "student": "Rahul Gupta",
         "grade": 11,
         "gender": "Male",
@@ -329,6 +368,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 48,
         "student": "Kavita Singh",
         "grade": 12,
         "gender": "Female",
@@ -336,6 +376,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 49,
         "student": "Rajesh Kumar",
         "grade": 10,
         "gender": "Male",
@@ -343,6 +384,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 50,
         "student": "Neha Verma",
         "grade": 11,
         "gender": "Female",
@@ -350,6 +392,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 51,
         "student": "Sanjay Mehta",
         "grade": 12,
         "gender": "Male",
@@ -357,6 +400,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 52,
         "student": "Sneha Choudhury",
         "grade": 9,
         "gender": "Female",
@@ -364,6 +408,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 53,
         "student": "Aryan Kumar",
         "grade": 10,
         "gender": "Male",
@@ -371,6 +416,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 54,
         "student": "Anita Das",
         "grade": 11,
         "gender": "Female",
@@ -378,6 +424,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 55,
         "student": "Vikram Singh",
         "grade": 12,
         "gender": "Male",
@@ -385,6 +432,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 56,
         "student": "Sandeep Kumar",
         "grade": 9,
         "gender": "Male",
@@ -392,6 +440,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 57,
         "student": "Smita Singh",
         "grade": 10,
         "gender": "Female",
@@ -399,6 +448,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 58,
         "student": "Rajesh Mehta",
         "grade": 11,
         "gender": "Male",
@@ -406,6 +456,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 59,
         "student": "Pooja Gupta",
         "grade": 12,
         "gender": "Female",
@@ -413,6 +464,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 60,
         "student": "Sunil Sharma",
         "grade": 10,
         "gender": "Others",
@@ -420,6 +472,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 61,
         "student": "Rina Das",
         "grade": 11,
         "gender": "Female",
@@ -427,6 +480,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 62,
         "student": "Alok Singh",
         "grade": 12,
         "gender": "Others",
@@ -434,6 +488,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 63,
         "student": "Seema Kumari",
         "grade": 9,
         "gender": "Female",
@@ -441,6 +496,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 64,
         "student": "Arun Patel",
         "grade": 10,
         "gender": "Others",
@@ -448,6 +504,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 65,
         "student": "Geeta Gupta",
         "grade": 11,
         "gender": "Female",
@@ -455,6 +512,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 66,
         "student": "Rajiv Mehta",
         "grade": 12,
         "gender": "Male",
@@ -462,6 +520,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 67,
         "student": "Sarika Yadav",
         "grade": 10,
         "gender": "Female",
@@ -469,6 +528,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 68,
         "student": "Anil Verma",
         "grade": 11,
         "gender": "Male",
@@ -476,6 +536,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 69,
         "student": "Nisha Das",
         "grade": 12,
         "gender": "Female",
@@ -483,6 +544,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 70,
         "student": "Ramesh Kumar",
         "grade": 9,
         "gender": "Male",
@@ -490,6 +552,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 71,
         "student": "Rani Patel",
         "grade": 10,
         "gender": "Female",
@@ -497,6 +560,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 72,
         "student": "Amar Singh",
         "grade": 11,
         "gender": "Male",
@@ -504,6 +568,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 73,
         "student": "Neetu Mehta",
         "grade": 12,
         "gender": "Female",
@@ -511,6 +576,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 74,
         "student": "Vikas Kumar",
         "grade": 9,
         "gender": "Male",
@@ -518,6 +584,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 75,
         "student": "Reena Verma",
         "grade": 10,
         "gender": "Female",
@@ -525,6 +592,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 76,
         "student": "Amit Das",
         "grade": 11,
         "gender": "Male",
@@ -532,6 +600,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 77,
         "student": "Preeti Singh",
         "grade": 12,
         "gender": "Female",
@@ -539,6 +608,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 78,
         "student": "Rajesh Das",
         "grade": 9,
         "gender": "Male",
@@ -546,6 +616,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 79,
         "student": "Renuka Kumari",
         "grade": 10,
         "gender": "Female",
@@ -553,6 +624,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 80,
         "student": "Alok Yadav",
         "grade": 11,
         "gender": "Others",
@@ -560,6 +632,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 81,
         "student": "Seema Sharma",
         "grade": 12,
         "gender": "Female",
@@ -567,6 +640,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 82,
         "student": "Vijay Kumar",
         "grade": 10,
         "gender": "Male",
@@ -574,6 +648,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 83,
         "student": "Meena Das",
         "grade": 11,
         "gender": "Female",
@@ -581,6 +656,7 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 84,
         "student": "Rajat Mehta",
         "grade": 12,
         "gender": "Male",
@@ -588,6 +664,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 85,
         "student": "Poonam Singh",
         "grade": 9,
         "gender": "Female",
@@ -595,6 +672,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 86,
         "student": "Ravi Gupta",
         "grade": 10,
         "gender": "Male",
@@ -602,6 +680,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 87,
         "student": "Sarika Kumari",
         "grade": 11,
         "gender": "Female",
@@ -609,6 +688,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 88,
         "student": "Ajay Yadav",
         "grade": 12,
         "gender": "Male",
@@ -616,6 +696,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 89,
         "student": "Neeta Sharma",
         "grade": 9,
         "gender": "Female",
@@ -623,6 +704,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 90,
         "student": "Vijay Kumar",
         "grade": 10,
         "gender": "Male",
@@ -630,6 +712,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 91,
         "student": "Meena Das",
         "grade": 11,
         "gender": "Female",
@@ -637,6 +720,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 92,
         "student": "Rajat Mehta",
         "grade": 12,
         "gender": "Male",
@@ -644,6 +728,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 93,
         "student": "Poonam Singh",
         "grade": 9,
         "gender": "Female",
@@ -651,6 +736,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 94,
         "student": "Ravi Gupta",
         "grade": 10,
         "gender": "Male",
@@ -658,6 +744,7 @@
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 95,
         "student": "Sarika Kumari",
         "grade": 11,
         "gender": "Female",
@@ -665,6 +752,7 @@
         "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 96,
         "student": "Ajay Yadav",
         "grade": 12,
         "gender": "Male",
@@ -672,6 +760,7 @@
         "school": "KVM PUBLIC SCHOOL"
       },
       {
+        "id": 97,
         "student": "Neeta Sharma",
         "grade": 9,
         "gender": "Female",
@@ -679,6 +768,7 @@
         "school": "DOON PUBLIC SCHOOL"
       },
       {
+        "id": 98,
         "student": "Vijay Kumar",
         "grade": 10,
         "gender": "Male",
@@ -686,6 +776,7 @@
         "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
       },
       {
+        "id": 99,
         "student": "Meena Das",
         "grade": 11,
         "gender": "Female",
@@ -693,10 +784,19 @@
         "school": "GURUKUL INTERNATIONNANL SCHOOL"
       },
       {
+        "id": 100,
         "student": "Rajat Mehta",
         "grade": 12,
         "gender": "Male",
         "caste": "SC/ST",
+        "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      },
+      {
+        "id": 101,
+        "student": "Amit Sharma",
+        "grade": 9,
+        "gender": "Male",
+        "caste": "General",
         "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
       }
 ]

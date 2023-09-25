@@ -1,802 +1,704 @@
 const HALDWANI = [
+  [
     {
-      "name": "Amit Sharma",
+      "student": "Amit Sharma",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Priya Patel",
+      "student": "Priya Patel",
       "grade": 10,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Rahul Gupta",
+      "student": "Rahul Gupta",
       "grade": 11,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Kavita Singh",
+      "student": "Kavita Singh",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Rajesh Kumar",
+      "student": "Rajesh Kumar",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Neha Verma",
+      "student": "Neha Verma",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Sanjay Mehta",
+      "student": "Sanjay Mehta",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Sneha Choudhury",
+      "student": "Sneha Choudhury",
       "grade": 9,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Aryan Kumar",
+      "student": "Aryan Kumar",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Anita Das",
+      "student": "Anita Das",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Vikram Singh",
+      "student": "Vikram Singh",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Sachin Mishra",
+      "student": "Sachin Mishra",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Pooja Gupta",
+      "student": "Pooja Gupta",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Rajiv Verma",
+      "student": "Rajiv Verma",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Shweta Yadav",
+      "student": "Shweta Yadav",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Kiran Kumari",
+      "student": "Kiran Kumari",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Sunil Singh",
+      "student": "Sunil Singh",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Rita Mehta",
+      "student": "Rita Mehta",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Arjun Choudhury",
+      "student": "Arjun Choudhury",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Nisha Sharma",
+      "student": "Nisha Sharma",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Rajeev Patel",
+      "student": "Rajeev Patel",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Lata Gupta",
+      "student": "Lata Gupta",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Kamal Kumar",
+      "student": "Kamal Kumar",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Manju Verma",
+      "student": "Manju Verma",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Rajat Mehta",
+      "student": "Rajat Mehta",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Poonam Singh",
+      "student": "Poonam Singh",
       "grade": 9,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Ravi Gupta",
+      "student": "Ravi Gupta",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Sarika Kumari",
+      "student": "Sarika Kumari",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Ajay Yadav",
+      "student": "Ajay Yadav",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Neeta Sharma",
+      "student": "Neeta Sharma",
       "grade": 9,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Vijay Kumar",
+      "student": "Vijay Kumar",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Meena Das",
+      "student": "Meena Das",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Suresh Singh",
+      "student": "Suresh Singh",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Shikha Mishra",
+      "student": "Shikha Mishra",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Anil Patel",
+      "student": "Anil Patel",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Nandini Gupta",
+      "student": "Nandini Gupta",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Rajesh Das",
+      "student": "Rajesh Das",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Renuka Kumari",
+      "student": "Renuka Kumari",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Alok Yadav",
+      "student": "Alok Yadav",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Seema Sharma",
+      "student": "Seema Sharma",
       "grade": 12,
-      "gender": "female",
+      "gender": "Others",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Vikas Gupta",
+      "student": "Vikas Gupta",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Neha Patel",
+      "student": "Neha Patel",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Others",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Sudhir Verma",
+      "student": "Sudhir Verma",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Preeti Kumari",
+      "student": "Preeti Kumari",
       "grade": 12,
-      "gender": "female",
+      "gender": "Others",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Amit Sharma",
+      "student": "Amit Sharma",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Priya Patel",
+      "student": "Priya Patel",
       "grade": 10,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Rahul Gupta",
+      "student": "Rahul Gupta",
       "grade": 11,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Kavita Singh",
+      "student": "Kavita Singh",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Rajesh Kumar",
+      "student": "Rajesh Kumar",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Neha Verma",
+      "student": "Neha Verma",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Sanjay Mehta",
+      "student": "Sanjay Mehta",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Sneha Choudhury",
+      "student": "Sneha Choudhury",
       "grade": 9,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Aryan Kumar",
+      "student": "Aryan Kumar",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Anita Das",
+      "student": "Anita Das",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Vikram Singh",
+      "student": "Vikram Singh",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Sandeep Kumar",
+      "student": "Sandeep Kumar",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Smita Singh",
+      "student": "Smita Singh",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Rajesh Mehta",
+      "student": "Rajesh Mehta",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Pooja Gupta",
+      "student": "Pooja Gupta",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Sunil Sharma",
+      "student": "Sunil Sharma",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "gender": "Others",
+      "caste": "General",
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Rina Das",
+      "student": "Rina Das",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Alok Singh",
+      "student": "Alok Singh",
       "grade": 12,
-      "gender": "male",
+      "gender": "Others",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Seema Kumari",
+      "student": "Seema Kumari",
       "grade": 9,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Arun Patel",
+      "student": "Arun Patel",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Others",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Geeta Gupta",
+      "student": "Geeta Gupta",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Rajiv Mehta",
+      "student": "Rajiv Mehta",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Sarika Yadav",
+      "student": "Sarika Yadav",
       "grade": 10,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Anil Verma",
+      "student": "Anil Verma",
       "grade": 11,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Nisha Das",
+      "student": "Nisha Das",
       "grade": 12,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Ramesh Kumar",
+      "student": "Ramesh Kumar",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Rani Patel",
+      "student": "Rani Patel",
       "grade": 10,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Amar Singh",
+      "student": "Amar Singh",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Neetu Mehta",
+      "student": "Neetu Mehta",
       "grade": 12,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Vikas Kumar",
+      "student": "Vikas Kumar",
       "grade": 9,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Reena Verma",
+      "student": "Reena Verma",
       "grade": 10,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Amit Das",
+      "student": "Amit Das",
       "grade": 11,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Preeti Singh",
+      "student": "Preeti Singh",
       "grade": 12,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Rajesh Das",
+      "student": "Rajesh Das",
       "grade": 9,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Renuka Kumari",
+      "student": "Renuka Kumari",
       "grade": 10,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Alok Yadav",
+      "student": "Alok Yadav",
       "grade": 11,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Others",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Seema Sharma",
+      "student": "Seema Sharma",
       "grade": 12,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Vijay Kumar",
+      "student": "Vijay Kumar",
       "grade": 10,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Meena Das",
+      "student": "Meena Das",
       "grade": 11,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Rajat Mehta",
+      "student": "Rajat Mehta",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Poonam Singh",
+      "student": "Poonam Singh",
       "grade": 9,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Ravi Gupta",
+      "student": "Ravi Gupta",
       "grade": 10,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Sarika Kumari",
+      "student": "Sarika Kumari",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Ajay Yadav",
+      "student": "Ajay Yadav",
       "grade": 12,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Neeta Sharma",
+      "student": "Neeta Sharma",
       "grade": 9,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Vijay Kumar",
+      "student": "Vijay Kumar",
       "grade": 10,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Meena Das",
+      "student": "Meena Das",
       "grade": 11,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Rajat Mehta",
+      "student": "Rajat Mehta",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Poonam Singh",
+      "student": "Poonam Singh",
       "grade": 9,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Ravi Gupta",
+      "student": "Ravi Gupta",
       "grade": 10,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Sarika Kumari",
+      "student": "Sarika Kumari",
       "grade": 11,
-      "gender": "female",
+      "gender": "Female",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "CYNTHIA SENIOR SECONDARY SCHOOL"
+      "school": "CYNTHIA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Ajay Yadav",
+      "student": "Ajay Yadav",
       "grade": 12,
-      "gender": "male",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "KVM PUBLIC SCHOOL"
+      "gender": "Male",
+      "caste": "General",
+      "school": "KVM PUBLIC SCHOOL"
     },
     {
-      "name": "Neeta Sharma",
+      "student": "Neeta Sharma",
       "grade": 9,
-      "gender": "female",
+      "gender": "Female",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "DOON PUBLIC SCHOOL"
+      "school": "DOON PUBLIC SCHOOL"
     },
     {
-      "name": "Vijay Kumar",
+      "student": "Vijay Kumar",
       "grade": 10,
-      "gender": "male",
+      "gender": "Male",
       "caste": "OBC",
-      "gra-year": 2020,
-      "School": "BEERSHEBA SENIOR SECONDARY SCHOOL"
+      "school": "BEERSHEBA SENIOR SECONDARY SCHOOL"
     },
     {
-      "name": "Meena Das",
+      "student": "Meena Das",
       "grade": 11,
-      "gender": "female",
-      "caste": "general",
-      "gra-year": 2020,
-      "School": "GURUKUL INTERNATIONNANL SCHOOL"
+      "gender": "Female",
+      "caste": "General",
+      "school": "GURUKUL INTERNATIONNANL SCHOOL"
     },
     {
-      "name": "Rajat Mehta",
+      "student": "Rajat Mehta",
       "grade": 12,
-      "gender": "male",
+      "gender": "Male",
       "caste": "SC/ST",
-      "gra-year": 2020,
-      "School": "INSPIRATION SENIOR SECONDARY SCHOOL"
+      "school": "INSPIRATION SENIOR SECONDARY SCHOOL"
     }
+]
 ]
