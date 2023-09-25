@@ -5,6 +5,8 @@ from django.db import models
 gender_choice = (('Male', 'Male'), ('Female', 'Female'), ('Other', 'Other'))
 caste_choice = (('General', 'General'), ('SC/ST', 'SC/ST'), ('OBC', 'OBC'))
 
+city_choice = (('Haldwani', 'Haldwani'), ('Bhimtal', 'Bhimtal'), ('Ramnagar', 'Ramnagar'), ('Nanital' ,'Nanital'), ('Mukteshwar', 'Mukteshwar'), ('Bhowali', 'Bhowali'))
+
 class School(models.Model):
     name = models.CharField(max_length=255, null=True, blank=True)
     def __str__(self):
@@ -22,7 +24,7 @@ class SchoolData(models.Model):
     gender = models.CharField(max_length=255, blank=True, null=True, choices=gender_choice)
     caste = models.CharField(max_length=255, blank=True, null=True, choices=caste_choice)
     aadhar = models.CharField(max_length=255, blank=True, null=True)
-    address = models.CharField(max_length=255, blank=True, null=True)
+    address = models.CharField(max_length=255, blank=True, null=True, choices=city_choice)
     residential_address = models.CharField(max_length=255, blank=True, null=True)
     father_name = models.CharField(max_length=255, blank=True, null=True)
     mother_name = models.CharField(max_length=255, blank=True, null=True)
