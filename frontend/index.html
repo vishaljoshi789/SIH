@@ -10,21 +10,28 @@
     <div class="w-full bg-cyan-100 h-56">
       <form action="" class="w-full h-full flex flex-wrap justify-evenly items-center">
         <section class="flex justify-evenly flex-wrap w-full">
-          <div>
-            <label for="Periodic Timeline">Periodic Timeline: </label><select name="Periodic Timeline" id="gender">
+          <div onchange="YearList()">
+            <label for="Periodic Timeline">Periodic Timeline: </label><select name="Periodic Timeline" id="year-list">
               <option value="Singular-Year">Singular-Year</option>
               <option value="Range-Selection">Range-Selection</option>
             </select>
           </div>
-          <div>
-            <label for="From-Year">From-Year: </label><select name="From-Year" id="gender">
+          <div id="Single0" class="text-inherit">
+            <label for="Year">Year: </label><select name="Year" id="Year">
+              <option value="2020">2020</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+            </select>
+          </div>
+          <div id="Range1" class="hidden">
+            <label for="From-Year">From-Year: </label><select name="From-Year" id="From-Year">
               <option value="2010">2010</option>
               <option value="2011">2011</option>
               <option value="2020">2020</option>
             </select>
           </div>
-          <div>
-            <label for="To-Year">To-Year: </label><select name="To-Year" id="gender">
+          <div id="Range2" class="hidden">
+            <label for="To-Year">To-Year: </label><select name="To-Year" id="To-Year">
               <option value="2020">2023</option>
               <option value="2020">2020</option>
               <option value="2011">2011</option>
@@ -35,17 +42,18 @@
         </section>
         <section class="flex justify-evenly flex-wrap w-full">
           <div>
-            <label for="City">City: </label><select name="City" id="district">
+            <label for="City">City: </label><select name="City" id="City">
+              <option value="HALDWANI">HALDWANI</option>
               <option value="none">none</option>
               <option value="NAINITAL">NAINITAL</option>
-              <option value="HALDWANI">HALDWANI</option>
               <option value="BHIMTAL">BHIMTAL</option>
               <option value="MUKTESHWAR">MUKTESHWAR</option>
               <option value="BHOWALI">BHOWALI</option>
             </select>
           </div>
           <div>
-            <label for="Subject">Subject: </label><select name="Subject" id="district">
+            <label for="Subject">Subject: </label><select name="Subject" id="Subject">
+              <option value="School">School</option>
               <option value="none">none</option>
               <option value="Gender">Gender</option>
               <option value="Age">Age</option>
@@ -70,7 +78,9 @@
     </div>
   </main>
 </body>
+<script src="script/data.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="script/chart.js"></script>
 <script src="script/form.js"></script>
+<script src="script/demo.js"></script>
 </html>
